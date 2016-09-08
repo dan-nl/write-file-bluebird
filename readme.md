@@ -1,5 +1,5 @@
 # write-file-bluebird
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![NSP Status][nsp-image]][nsp-url]
 
 wraps node’s [`fs.writeFile()`][fs-write-file], in a [bluebird ( v3.4.6 )][bluebird] promise that resolves with `true` if successful, or rejects with the `Error` returned by `fs.writeFile()`; both results need to be handled by the code calling this function.
 
@@ -72,3 +72,5 @@ writeFile( file, data )
 [npm-url]: https://www.npmjs.com/package/write-file-bluebird
 [travis-image]: https://travis-ci.org/dan-nl/write-file-bluebird.svg?branch=master
 [travis-url]: https://travis-ci.org/dan-nl/write-file-bluebird
+[nsp-image]: https://nodesecurity.io/orgs/githubdan-nl/projects/a6f71102-26c4-427c-a428-0866461a06d2/badge
+[nsp-url]: https://nodesecurity.io/orgs/githubdan-nl/projects/a6f71102-26c4-427c-a428-0866461a06d2
