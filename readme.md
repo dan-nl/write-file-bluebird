@@ -11,14 +11,14 @@ npm install write-file-bluebird
 ## usage
 ### writeFile( file, data[, options] )
 ```javascript
- @param {String|Buffer|Number} file filename or file descriptor
- @param {String|Buffer} data
- @param {Object|String} [options]
- @param {String|null} [options.encoding = 'utf-8']
- @param {Number} [options.mode = 0o666]
- @param {String} [options.flag = 'w']
+ @param {string|buffer|number} file filename or file descriptor
+ @param {string|buffer} data
+ @param {object|string} [options]
+ @param {string|null} [options.encoding = 'utf-8']
+ @param {number} [options.mode = 0o666]
+ @param {string} [options.flag = 'w']
  
- @returns {bluebird}
+ @returns {Promise}
 ```
 
 ### default

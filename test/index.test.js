@@ -4,7 +4,7 @@
 /**
  * module dependencies
  */
-var bluebird = require( 'bluebird' );
+var Promise = require( 'bluebird' );
 var chai = require( 'chai' );
 var chaiAsPromised = require( 'chai-as-promised' );
 var expect = chai.expect;
@@ -31,7 +31,7 @@ describe( 'writeFile( file, data[, options] )', function () {
     );
 
     it( 'a bluebird promise', function () {
-      return expect( writeFile( file, data ) ).to.be.instanceof( bluebird );
+      return expect( writeFile( file, data ) ).to.be.instanceof( Promise );
     } );
   } );
 
