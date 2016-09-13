@@ -1,7 +1,18 @@
 # write-file-bluebird
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![NSP Status][nsp-image]][nsp-url]
 
-wraps node’s [`fs.writeFile()`][fs-write-file], in a [bluebird ( v3.4.6 )][bluebird] promise that resolves with `true` if successful, or rejects with the `Error` returned by `fs.writeFile()`; both results need to be handled by the code calling this function.
+promise wrapper for node’s fs.writeFile().
+
+wraps node’s [`fs.writeFile()`][fs-write-file], in a [bluebird][bluebird] promise that resolves with `true` if successful, or rejects with the `Error` returned by `fs.writeFile()`; both results need to be handled by the code calling this function.
+
+## table of contents
+* [installation](#installation)
+* [usage](#usage)
+    * [writeFile( file, data[, options] )](#writefile-file-data-options-)
+    * [default](#default)
+    * [set ignore to false](#set-ignore-to-false)
+    * [using node’s path module](#using-nodes-path-module)
+* [license](#license)
 
 ## installation
 ```javascript
@@ -36,7 +47,7 @@ writeFile( 'test.json', data )
     function( err ) {
       // handle error
     }
-  )
+  );
 ```
 
 ### using node’s path module
@@ -57,7 +68,7 @@ writeFile( file, data )
     function( err ) {
       // handle error
     }
-  )
+  );
 ```
 
 ## license

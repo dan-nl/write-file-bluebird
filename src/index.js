@@ -7,8 +7,10 @@ var fs = require( 'fs' );
 var Promise = require( 'bluebird' );
 
 /**
- * wraps node’s `fs.writeFile()`, in a bluebird ( v 3.4.6 ) promise that resolves with `true` if
- * successful or rejects with the `Error` returned by `fs.writeFile()`; both results need to be
+ * promise wrapper for node’s fs.writeFile().
+ *
+ * wraps node’s fs.writeFile(), in a bluebird promise that resolves with `true` if
+ * successful or rejects with the `Error` returned by fs.writeFile(); both results need to be
  * handled by the code calling this module
  *
  * @param {string|buffer|number} file filename or file descriptor
