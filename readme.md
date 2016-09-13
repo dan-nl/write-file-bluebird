@@ -10,7 +10,6 @@ wraps node’s [`fs.writeFile()`][fs-write-file], in a [bluebird][bluebird] prom
 * [usage](#usage)
     * [writeFile( file, data[, options] )](#writefile-file-data-options-)
     * [default](#default)
-    * [set ignore to false](#set-ignore-to-false)
     * [using node’s path module](#using-nodes-path-module)
 * [license](#license)
 
