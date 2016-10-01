@@ -80,7 +80,7 @@ writeFile( file, data )
 [mit-license]: https://raw.githubusercontent.com/dan-nl/write-file-bluebird/master/license.txt
 [npm-image]: https://img.shields.io/npm/v/write-file-bluebird.svg
 [npm-url]: https://www.npmjs.com/package/write-file-bluebird
+[nsp-image]: https://nodesecurity.io/orgs/githubdan-nl/projects/ceae3416-448a-4ca3-b838-c0ec6ffcc718/badge
+[nsp-url]: https://nodesecurity.io/orgs/githubdan-nl/projects/ceae3416-448a-4ca3-b838-c0ec6ffcc718
 [travis-image]: https://travis-ci.org/dan-nl/write-file-bluebird.svg?branch=master
 [travis-url]: https://travis-ci.org/dan-nl/write-file-bluebird
-[nsp-image]: https://nodesecurity.io/orgs/githubdan-nl/projects/a6f71102-26c4-427c-a428-0866461a06d2/badge
-[nsp-url]: https://nodesecurity.io/orgs/githubdan-nl/projects/a6f71102-26c4-427c-a428-0866461a06d2
