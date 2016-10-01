@@ -1,6 +1,6 @@
 {
   "name": "write-file-bluebird",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "promise wrapper for node’s fs.writeFile()",
   "author": "dan entous",
   "license": "MIT",
