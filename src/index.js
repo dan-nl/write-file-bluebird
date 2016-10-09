@@ -20,13 +20,14 @@ var Promise = require( 'bluebird' );
  * @param {number} [options.mode = 0o666]
  * @param {string} [options.flag = 'w']
  *
- * @returns {Promise}
+ * @returns {Promise.<boolean, Error>}
  */
 module.exports = function writeFile( file, data, options ) {
   return new Promise(
     /**
      * @param {Function} resolve
      * @param {Function} reject
+     * @returns {undefined}
      */
     function ( resolve, reject ) {
       fs.writeFile(
@@ -35,6 +36,7 @@ module.exports = function writeFile( file, data, options ) {
         options,
         /**
          * @param {Error} [err]
+         * @returns {undefined}
          */
         function callback( err ) {
           if ( err ) {
